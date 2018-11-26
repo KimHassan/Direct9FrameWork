@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{a39a1429-7ff2-4f92-8d0d-cbc54280fcae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Device">
+      <UniqueIdentifier>{12a45edb-ecaa-4032-8dab-1cb1eedd8aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Texture">
+      <UniqueIdentifier>{11a2eb19-b8cf-468d-a9f0-d56db2d2b52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene">
+      <UniqueIdentifier>{cb4ca598-d83e-4784-85b6-55cccaa41990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\TestScene">
+      <UniqueIdentifier>{167b6a14-abb7-4ef9-b60e-f6a437575115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\MainGame">
+      <UniqueIdentifier>{8201ed74-2161-44fc-aaed-0847d47d8380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameScene\Scene">
+      <UniqueIdentifier>{897786dc-0793-4cb6-9c66-29b6bbf02618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Manager">
+      <UniqueIdentifier>{6e1dbab0-6b6b-45f4-bb22-5f43a18720fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Manager\KeyManager">
+      <UniqueIdentifier>{2243f569-ec02-476d-a671-a1dc4f71ead7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Manager\TimeManager">
+      <UniqueIdentifier>{235ac2ac-d4b4-4f38-88ac-ced1a0c61205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Manager\SoundManager">
+      <UniqueIdentifier>{7ebc6f6c-bf94-40ac-bc26-7c62ff1c29fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Manager\SceneManager">
+      <UniqueIdentifier>{01249a08-50f9-464f-8863-4a9bc3aead43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Manager\ImageManager">
+      <UniqueIdentifier>{ccb9c562-7601-4117-893a-9777a3746d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object">
+      <UniqueIdentifier>{66b8f163-8595-4840-8b4a-bb406a97e455}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct9FrameWork.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>FrameWork\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>FrameWork\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>GameScene\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>GameScene\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>FrameWork\Manager\KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>FrameWork\Manager\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>GameScene\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>FrameWork\Manager\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>FrameWork\Manager\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>FrameWork\Manager\ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameScene\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>GameScene\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>FrameWork\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct9FrameWork.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>FrameWork\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>FrameWork\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>GameScene\TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>GameScene\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>FrameWork\Manager\KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>FrameWork\Manager\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>FrameWork\Manager\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>FrameWork\Manager\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>FrameWork\Manager\ImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameScene\TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>GameScene\TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>FrameWork\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Direct9FrameWork.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Direct9FrameWork.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

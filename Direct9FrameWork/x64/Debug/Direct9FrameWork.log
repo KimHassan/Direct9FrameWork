@@ -1,0 +1,42 @@
+﻿  stdafx.cpp
+c:\users\primo\source\repos\direct9framework\direct9framework\timemanager.h(36): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Bullet.cpp
+c:\users\primo\source\repos\direct9framework\direct9framework\bullet.cpp(21): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\primo\source\repos\direct9framework\direct9framework\bullet.cpp(31): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\primo\source\repos\direct9framework\direct9framework\bullet.cpp(32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Device.cpp
+  Direct9FrameWork.cpp
+  ImageManager.cpp
+  KeyManager.cpp
+  MainGame.cpp
+  Object.cpp
+  Player.cpp
+  SceneManager.cpp
+  SoundManager.cpp
+  TestScene.cpp
+  Texture.cpp
+  TimeManager.cpp
+  코드를 생성하고 있습니다...
+c:\users\primo\source\repos\direct9framework\direct9framework\imagemanager.cpp(52): warning C4715: 'ImageManager::AddFrameImage': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\primo\source\repos\direct9framework\direct9framework\imagemanager.cpp(35): warning C4715: 'ImageManager::AddImage': 모든 제어 경로에서 값을 반환하지는 않습니다.
+Device.obj : error LNK2019: Direct3DCreate9 외부 기호(참조 위치: "public: void __cdecl Device::Init(void)" (?Init@Device@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: FMOD_System_Create 외부 기호(참조 위치: "enum FMOD_RESULT __cdecl FMOD::System_Create(class FMOD::System * *)" (?System_Create@FMOD@@YA?AW4FMOD_RESULT@@PEAPEAVSystem@1@@Z) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::release(void)" (?release@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl SoundManager::Destroy(void)" (?Destroy@SoundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::init(int,unsigned int,void *)" (?init@System@FMOD@@QEAA?AW4FMOD_RESULT@@HIPEAX@Z) 외부 기호(참조 위치: "public: long __cdecl SoundManager::Init(void)" (?Init@SoundManager@@QEAAJXZ) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::close(void)" (?close@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl SoundManager::Destroy(void)" (?Destroy@SoundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::update(void)" (?update@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl SoundManager::Update(void)" (?Update@SoundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::createSound(char const *,unsigned int,struct FMOD_CREATESOUNDEXINFO *,class FMOD::Sound * *)" (?createSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@PEBDIPEAUFMOD_CREATESOUNDEXINFO@@PEAPEAVSound@2@@Z) 외부 기호(참조 위치: "public: void __cdecl SoundManager::AddSound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)" (?AddSound@SoundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0_N@Z) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::createStream(char const *,unsigned int,struct FMOD_CREATESOUNDEXINFO *,class FMOD::Sound * *)" (?createStream@System@FMOD@@QEAA?AW4FMOD_RESULT@@PEBDIPEAUFMOD_CREATESOUNDEXINFO@@PEAPEAVSound@2@@Z) 외부 기호(참조 위치: "public: void __cdecl SoundManager::AddSound(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)" (?AddSound@SoundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0_N@Z) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::playSound(enum FMOD_CHANNELINDEX,class FMOD::Sound *,bool,class FMOD::Channel * *)" (?playSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PEAVSound@2@_NPEAPEAVChannel@2@@Z) 외부 기호(참조 위치: "public: void __cdecl SoundManager::Play(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,float)" (?Play@SoundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Sound::release(void)" (?release@Sound@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl SoundManager::Destroy(void)" (?Destroy@SoundManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::stop(void)" (?stop@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: "public: void __cdecl SoundManager::Stop(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?Stop@SoundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::setPaused(bool)" (?setPaused@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@_N@Z) 외부 기호(참조 위치: "public: void __cdecl SoundManager::Pause(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?Pause@SoundManager@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::getPaused(bool *)" (?getPaused@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@PEA_N@Z) 외부 기호(참조 위치: "public: bool __cdecl SoundManager::isPause(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?isPause@SoundManager@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 함수)에서 확인하지 못했습니다.
+SoundManager.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::isPlaying(bool *)" (?isPlaying@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@PEA_N@Z) 외부 기호(참조 위치: "public: bool __cdecl SoundManager::isPlay(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?isPlay@SoundManager@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 함수)에서 확인하지 못했습니다.
+Texture.obj : error LNK2019: D3DXCreateSprite 외부 기호(참조 위치: "public: long __cdecl Texture::Init(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,int,int,unsigned long)" (?Init@Texture@@QEAAJV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HHK@Z) 함수)에서 확인하지 못했습니다.
+Texture.obj : error LNK2019: D3DXCreateTextureFromFileExW 외부 기호(참조 위치: "public: long __cdecl Texture::Init(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,int,int,unsigned long)" (?Init@Texture@@QEAAJV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@HHK@Z) 함수)에서 확인하지 못했습니다.
+TimeManager.obj : error LNK2019: D3DXCreateFontIndirectW 외부 기호(참조 위치: "public: void __cdecl TimeManager::Render(void)" (?Render@TimeManager@@QEAAXXZ) 함수)에서 확인하지 못했습니다.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+lib\fmodex_vc.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\primo\source\repos\Direct9FrameWork\x64\Debug\Direct9FrameWork.exe : fatal error LNK1120: 17개의 확인할 수 없는 외부 참조입니다.

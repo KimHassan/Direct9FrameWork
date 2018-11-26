@@ -1,0 +1,23 @@
+﻿  stdafx.cpp
+c:\users\primo\source\repos\direct9framework\direct9framework\timemanager.h(36): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Bullet.cpp
+c:\users\primo\source\repos\direct9framework\direct9framework\bullet.cpp(16): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\primo\source\repos\direct9framework\direct9framework\bullet.cpp(25): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\primo\source\repos\direct9framework\direct9framework\bullet.cpp(26): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\primo\source\repos\direct9framework\direct9framework\bullet.cpp(126): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Device.cpp
+  Direct9FrameWork.cpp
+  ImageManager.cpp
+  KeyManager.cpp
+  MainGame.cpp
+  Object.cpp
+  Player.cpp
+c:\users\primo\source\repos\direct9framework\direct9framework\player.cpp(10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SceneManager.cpp
+  SoundManager.cpp
+  TestScene.cpp
+  Texture.cpp
+  TimeManager.cpp
+  Util.cpp
+  코드를 생성하고 있습니다...
+  Direct9FrameWork.vcxproj -> C:\Users\primo\source\repos\Direct9FrameWork\Debug\Direct9FrameWork.exe
